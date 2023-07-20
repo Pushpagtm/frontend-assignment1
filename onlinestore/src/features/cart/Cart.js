@@ -8,7 +8,7 @@ export function Cart() {
   const dispatch = useDispatch();
   const [open, setOpen] = useState(true);
   const items = useSelector(selectItems);
-  console.log('======items',items)
+  console.log("===================",items)
   const totalAmount = items.reduce(
     (amount, item) => item.price * item.quantity + amount,
     0

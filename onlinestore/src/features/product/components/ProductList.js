@@ -36,7 +36,7 @@ export default function ProductList() {
     dispatch(fetchProductsByFiltersAsync(newFilter));
     console.log(section.id, option.value);
   };
-  console.log("==============", categories);
+  
   const filters = [
     {
       id: "category",
