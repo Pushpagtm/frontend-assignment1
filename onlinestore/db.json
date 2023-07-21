@@ -1,4 +1,31 @@
 {
+  "categories": [
+    {
+      "value": "men's clothing",
+      "label": "men's clothing",
+      "checked": false
+    },
+    {
+      "value": "women's clothing",
+      "label": "women's clothing",
+      "checked": false
+    },
+    {
+      "value": "electronics",
+      "label": "electronics",
+      "checked": false
+    },
+    {
+      "value": "skincare",
+      "label": "skincare",
+      "checked": false
+    },
+    {
+      "value": "jewelery",
+      "label": "jewelery",
+      "checked": false
+    }
+  ],
   "cart": [
     {
       "title": "John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet",

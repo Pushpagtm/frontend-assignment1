@@ -2,7 +2,7 @@ import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
 import { fetchAllCategories, fetchAllProducts, fetchProductId, fetchProductsByFilters } from "./productAPI";
 const initialState = {
   products: [],
-  categories:[ ],
+  categories:[],
   status: "idle",
   totalItem: 0,
   selectedProduct:null
